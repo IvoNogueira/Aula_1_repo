@@ -5,6 +5,6 @@ def tempo(arg = None):
     else:
         print('today is a good day')
 
-x = input('How hot is today? ')
+x = int(input('How hot is today? '))
 
 tempo(x)
