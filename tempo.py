@@ -1,7 +1,10 @@
 
-def tempo():
-    print('today is a good day')
+def tempo(x):
+    if x > 30:
+        print('today is pretty hot')
+    else:
+        print('today is a good day')
 
-x = input('How hot is today? ')
+x = int(input('How hot is today? '))
 
-tempo()
+tempo(x)
